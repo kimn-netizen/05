@@ -9,15 +9,11 @@ int main(void)
 
     if (num > 0)
     {
-        printf("Positive\n");
+        printf("Absolute value: %d\n", num);
     }
-    else if (num < 0)
+    else 
     {
-        printf("Negative\n");
-    }
-    else
-    {
-        printf("Zero\n");
+        printf("Absolute value: %d\n", -num);
     }
 
     return 0;
